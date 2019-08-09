@@ -41,8 +41,6 @@ class UserController {
         .catch(err=>{
             console.log(err)    
         })
-        // console.log(req.body.id_token)
-        // res.send('sdfdsfdsf')
     }
 }
 
