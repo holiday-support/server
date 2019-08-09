@@ -1,6 +1,6 @@
-const { User } = require('../Models')
+const { User } = require('../Models');
 const {OAuth2Client} = require('google-auth-library');
-const { token } = require('../helpers/token')
+const { token } = require('../helpers/token');
 class UserController {
     static create(req,res){
         let data;
