@@ -1,5 +1,9 @@
-
+const Restaurant = require('./eventController')
+const UserControllers = require('./UserControllers');
 const Calendar = require('./calendar')
 
-
-module.exports = { Calendar }
+module.exports = {
+    UserControllers,
+    Restaurant,
+    Calendar
+}
