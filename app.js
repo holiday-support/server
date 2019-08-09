@@ -25,7 +25,7 @@ app.use(cors())
 app.get('/',(req,res,next)=>{
     res.send('HOME OF API')
 })
-app.use('/api',routes)
+app.use('/api', routes)
 app.use(function (err, req, res, next) {
     console.log(err)
     res.status(500).send({message:'Internal Server Error'})
